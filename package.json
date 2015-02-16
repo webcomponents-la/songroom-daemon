@@ -1,0 +1,29 @@
+{
+  "name": "songroom-daemon",
+  "version": "0.0.0",
+  "description": "Companion app for Songroom to handle server-side tasks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webcomponents-la/songroom-daemon.git"
+  },
+  "author": "Michael Bleigh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webcomponents-la/songroom-daemon/issues"
+  },
+  "homepage": "https://github.com/webcomponents-la/songroom-daemon",
+  "dependencies": {
+    "babel": "^4.0.1",
+    "cors": "^2.5.3",
+    "dotenv": "^0.5.1",
+    "echojs": "^0.1.4",
+    "express": "^4.11.2",
+    "firebase": "^2.2.0",
+    "morgan": "^1.5.1",
+    "q": "^1.1.2"
+  }
+}
